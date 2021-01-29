@@ -1,0 +1,293 @@
+body{
+    margin: 0px;
+    /* font-family: font family- GalanoGrotesque-Medium; */
+
+}
+.meinsection {
+    display: grid;
+    grid-template-columns:250px auto;
+    height: 100vh;
+}
+.headercontent img.logo_white {
+    cursor: pointer;
+    padding-top: 25px;
+}
+.meinsection .navbar {
+    background: #1e2640;
+    position: relative;
+     padding: 5px 25px;
+}
+.meinsection .icons ul li {
+    list-style: none;
+    padding: 10px 0px;
+}
+.meinsection .navbar .icons {
+    height: calc(82vh - 16px);
+}
+.meinsection .navbar .icons ul {
+    padding: 0px;
+}
+.meinsection .navbar .notification {
+    width: 30px;
+    height: 24px;
+    margin: 0 0 0 90px;
+    padding: 2px 11px;
+    border-radius: 14px;
+    background-color: #ea6f57;
+}
+.meinsection .navbar .footer p,
+.meinsection .navbar .footer h6 {
+    margin: 0px;
+    color: #fff;
+}
+.meinsection .navbar .footer h6 {
+    font-size: 16px;
+}
+.meinsection .navbar .footer {
+    padding: 12px 90px 12px 15px;
+    background-color: #68759e;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    width: auto;
+}
+.meinsection .navbar .footer p{
+    padding-bottom: 5px;
+    font-size: 14px !important;
+}
+.meincontent .topheader h2 {
+    margin: 0px;
+    text-transform: capitalize;
+    flex: 1;
+    display: flex;
+    color: #1a181e;
+}
+.meincontent .topheader h2 img {
+    padding-left: 10px;
+}
+.meincontent .topheader span.market-title {
+    margin-top: 5px;
+}
+
+.meincontent .topheader span.how-to-use {
+      float: right;
+      background: #d9d9d9;
+      padding: 10px;
+      border-radius: 5px;
+      color: #146eb4;
+      font-weight: bold;
+}
+.meincontent .topheader strong.useHow {
+    margin-right: 10px;
+    background-color: #146eb4;
+    padding: 2px 5px;
+    color: #fff;
+}
+.meincontent .topheader {
+    padding: 25px;
+    border-bottom: 1px solid #000;
+    background: #fff;
+    display: flex;
+}
+.meinsection .navbar .icons ul li div {
+    color: #fff;
+    text-decoration: unset;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+}
+.meinsection .navbar .icons ul li div span {
+    padding-left: 15px;
+}
+.meinsection .meincontentbottam {
+    background: whitesmoke;
+    display: inline-block;
+    width: 100%;
+}
+.meincontent {
+    background: whitesmoke;
+    height: calc(100vh - 0px);
+    overflow: auto;
+}
+.meinsection .meincontentbottam .sharestore {
+      display: flex;
+      padding: 30px 25px 0px;
+      cursor: pointer;
+}
+.meinsection .meincontentbottam .sharestore h4 {
+    flex: 1;
+    margin: 0px;
+    align-self: center;
+    font-size: 20px;
+}
+.meinsection .meincontentbottam .sharestore select#cars {
+    width: auto;
+    height: 30px;
+    padding: 0px 5px;
+}
+.middelsection {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px;
+}
+.middelsection .middelone ul li {
+    list-style: none;
+        display: inline-block;
+        padding: 0px 5px;
+}
+.middelsection .middelone ul {
+    padding: 0px;
+}
+.middelone,
+.middeltwo,
+.middelthree {
+    flex: 1;
+    margin-top: 15px;
+   
+}
+.middelone,
+.middeltwo{
+ margin-right: 15px;
+}
+
+.meincontentbottam .noData {
+    text-align: center;
+    background: white;
+    width: auto;
+    height: 40px;
+    margin: 20px 20px 20px 20px;
+    padding-top: 15px;
+}
+
+.ordersection {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 25px 100px;
+}
+
+.middelone{
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 15px 0px;
+}
+.order {
+    background-color: #fff;
+    padding: 1px 15px;
+}
+.meinsection .meincontent .sharestore span {
+    color: #808080;
+}
+.middelsection .middelone a {
+    color: #ee741f;
+    font-weight: bold;
+    text-decoration: unset;
+}
+.middelsection .middelone a:hover {
+    border-bottom: 1px solid #ee741f;
+}
+.middeltwo .order:nth-child(1),
+.middelthree .order:nth-child(1) {
+    margin-bottom: 15px;
+}
+.middeltwo p,
+.middelthree p {
+    color: #4d4d4d;
+}
+
+.pandingsection ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #808080;
+    border-radius: 25px;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.pandingsection ul{
+    padding: 0px;
+}
+.pandingsection {
+    padding: 15px 25px 15px;
+}
+.pandingsection ul  li.active {
+    background: #146eb4;
+}
+.orderdetails,
+.orderdetailsone,
+.orderdetailstwo {
+    flex: 25%;
+    width: 308px;
+    height: 148px;
+    background: #fff;
+    border-radius: 5px; 
+    padding: 15px;
+    margin-top: 15px;
+}
+.orderdetails,
+.orderdetailsone{
+    margin-right: 15px;
+}
+.ordersection h6 {
+    margin: 0px;
+    width: auto;
+    display: inline-block;
+    font-size: 16px;
+}
+.ordersection span {
+    float: right;
+    color: #808080;
+    font-size: 14px;
+}
+.Share_via {
+    padding-bottom: 10px;
+}
+.middeltwo h3,
+.middelthree h3 {
+    font-size: 32px;
+    margin: 5px 0px;
+}
+.productitem p.item {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+}
+.productitem p {
+    font-size: 18px;
+    color: #146eb4;
+    font-weight: 600;
+}
+.itemssection {
+    display: grid;
+    grid-template-columns: 27% 34% 39%;
+    padding-top: 15px;
+    grid-gap: 10px;
+}
+.details p {
+    margin: 0px;
+    padding: 5px 0px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.details {
+        align-self: end;
+    border: 1px solid #cccccc;
+    width: 90px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+}
+.meindetails {
+    position: relative;
+}
+.meincontentbottam .ordersection span.New {
+    margin-left: 10px;
+    font-size: 10px;
+    background: #17b31b;
+    padding: 3px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
